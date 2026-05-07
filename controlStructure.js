@@ -100,14 +100,14 @@ let batteryStatus = 10
 //     console.log("Login successful")
 // }
 
-// let email = prompt("Enter your email")
-// let password = prompt("Enter your password")
+let email = prompt("Enter your email")
+let password = prompt("Enter your password")
 
-// if (email.length > 2 && email === undefined ) {
-//     console.log("You have logged in successfully")
-// } else {
-//     console.log("Email can't be left empty so enter your email to login")
-// }
+if (email.trim().length > 2 && email ) {
+    console.log("You have logged in successfully")
+} else {
+    console.log("Email can't be left empty so enter your email to login")
+}
 
 
 // LOOPS

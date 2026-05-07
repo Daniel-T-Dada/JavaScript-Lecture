@@ -67,7 +67,7 @@ const cube = (y) => {
 // They can be defined using the async keyword and often use the await keyword to handle asynchronous operations.
 async function fetchData() {
     try {
-        const response = await fetch('https://dummyjson.com/comments/');
+        const response = await fetch('https://dummyjson.com/user/?limit=5');
         const data = await response.json();
         console.log(data);
     } catch (error) {
